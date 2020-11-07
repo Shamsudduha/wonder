@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+a{text-decoration: none;}
+img{max-width: 100%}
+ul{list-style: none;}
+li{list-style: none;}
+p{}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/******************header section*********************/
+header{}
+.background_images{
+    background-image: url(../images/ban1.jpg);
+    background-position: center;
+    height: 100vh;
+}
+.background_images img {}
+.head{}
+.head_sub1{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+.logo{
+    width: 12%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a:hover{}
+.logo img{}
+
+
+.menu{
+    width: 88%;
+    flex: 0 0 auto;
+}
+.menu ul {display: flex;flex-wrap: wrap;flex: 0 0 auto;justify-content: flex-end;}
+.menu ul li {padding: 0px 5px;}
+.menu ul li a{
+    color: white;
+    font-weight: 600;
+    border: 2px solid #ffffff00;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px 15px;
+    transition-duration: .3s;
+}
+.menu ul li a:hover{
+    border: 2px solid;
+}
+
+
+.head_sub2{
+    width: 80%;
+    margin: auto;
+    padding: 20% 0%;
+}
+.head_sub2 p {
+    color: white;
+    font-size: 26px;
+    font-weight: 100;
+    text-align: center;
+}
+.head_sub2 h1 {
+    font-size: 72px;
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+}
+.head_sub2 a{
+    background-color: red;
+    color: wheat;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid red;
+    transition-duration: .3s;
+}
+.head_sub2 a:hover{
+    background-color: #f5deb300;
+    border: 2px solid;
+}
+
+.barmini1{
+    margin-top: 15px;
+    background-color: red;
+    height: 2px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/******************header section*********************/
+
+
+
+/******************speech section*********************/
+
+.speech_section{
+    background-color: #f4f5f9;
+}
+.apos{
+    width: 20%;
+    flex: 0 0 auto;
+}
+.apos img{
+    width: 100%;
+    padding: 50px;
+}
+.speech{
+    flex: 0 0 auto;
+    width: 60%;
+}
+.speech p{
+    line-height: 28px;
+    text-align: center;
+    font-size: 17px;
+}
+.adam{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sp1{width: 80%;margin: auto;align-items: center;justify-content: center;}
+/******************speech section*********************/
+
+
+
+
+/******************events section*********************/
+
+.events_section{
+    width: 80%;
+    margin: auto;
+}
+.events_section h2{
+    font-size: 32px;
+    text-align: center;
+    margin: 80px 0 0;
+}
+.barmini1{}
+.cont{
+    padding: 30px;
+}
+.cont_sub{
+    width: 50%;
+    padding: 15px 50px;
+    margin-top: 30px;
+}
+.box2{
+    width: 100%;
+    margin: 0 0 30px;
+}
+.box2 p{
+    text-align: center;
+    font-size: 16px;
+    margin: 15px 0px 20px;
+}
+.box2 img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    box-shadow: 8px 8px 0px #ecebeb;
+    border-radius: 8px;
+    margin-bottom: 48px;
+}
+.box2 h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.box2 a{display: inline-block;transition-duration: .3s;}
+.box2 a:hover{opacity: .6;}
+.learn{
+    font-size: 12px;
+    color: red;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.learn:hover{color: #8a8a8a;}
+.learn i{}
+
+
+
+/******************events  section*********************/
+
+/******************explore  section*********************/
+.explore{margin: 30px 0px;}
+.banner2{
+    background-image: url(../images/7.jpg);
+    background-position: center;
+    height: 90vh;
+    object-fit: cover;
+    }
+.banner2 img{}
+.barmini3{
+    margin-top: 15px;
+    background-color: red;
+    height: 2px;
+    width: 80px;
+    }
+.textbanner{
+    width: 50%;
+    margin-left: auto;
+    padding: 15% 62px 0px 0;
+}
+.textbanner p{
+    color: white;
+    margin: 32px 0px;
+}
+.textbanner a {}
+.textbanner a:hover{}
+.ex{
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+}
+.learn1{
+     font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/******************explore  section*********************/
+
+
+
+/******************GALLARY  section*********************/
+.gallery_section{}
+.gallery{
+    width: 80%;
+    margin: auto;
+}
+.com{
+    margin: 145px 0px;
+}
+.gallery_text{
+    width: 40%;
+    flex: 0 0 auto;
+}
+.gallery_text h2{
+    font-size: 28px;
+}
+.gallery_text p {
+    padding: 30px 45px 48px 0;
+}
+.gallery_text a{
+    background-color: #ff0058;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid #ff0058;
+    transition-duration: .3s;
+}
+.gallery_text a:hover{
+    background-color: #ffffff00;
+    color: #ff0058;
+    border: 2px solid #ff0058;
+}
+.barmini5{
+    margin-top: 15px;
+    background-color: red;
+    height: 2px;
+    width: 80px;
+}
+.gallery_image{
+    width: 60%;
+    flex: 0 0 auto;
+}
+.smbig{
+    width: 50%;
+}
+.smbig img {
+}
+.sm{
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    padding: 6px 6px;
+}
+.big{
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    padding: 6px 7px;
+}
+
+
+
+
+
+/******************GALLARY  section*********************/
+
+
+/******************footer  section*********************/
+
+footer{
+    background-color: #333;
+    color: white;
+}
+.footer_section{
+    width: 80%;
+    margin: auto;
+}
+.foot{}
+.foot p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 40px 0px;
+}
+
+/******************footer  section*********************/
